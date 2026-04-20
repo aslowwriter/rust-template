@@ -27,4 +27,4 @@ If you have to publish, or otherwise fiddle with dependencies of {{project-name}
 
 ## Template
 
-This repo was initially setup using [`cargo-generate`](https://github.com/cargo-generate/cargo-generate) and [this template](https://github.com/savente93/rust-template)
+This repo was initially setup using [`cargo-generate`](https://github.com/cargo-generate/cargo-generate) and [this template](https://github.com/aslowwriter/rust-template)
