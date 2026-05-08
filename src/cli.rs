@@ -13,13 +13,15 @@ impl LogLevel for CustomLogLevel {
         Some("suppress all logging output")
     }
     fn quiet_long_help() -> Option<&'static str> {
-        Some("Surpress the logging output of the application, including errors.")
+        Some("Suppress the logging output of the application, including errors.")
     }
     fn verbose_help() -> Option<&'static str> {
         Some("Increase verbosity of the logging (can be specified multiple times).")
     }
     fn verbose_long_help() -> Option<&'static str> {
-        Some("Increase the logging verbosity of the application by one level (ERROR, WARN, INFO, DEBUG, TRACE)")
+        Some(
+            "Increase the logging verbosity of the application by one level (ERROR, WARN, INFO, DEBUG, TRACE)",
+        )
     }
 }
 
